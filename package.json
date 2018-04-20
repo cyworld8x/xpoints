@@ -7,18 +7,22 @@
     "test": "jest"
   },
   "dependencies": {
-    "bluebird": "^3.5.1",
-    "firebase": "^4.12.1",
+    "expo-analytics": "^1.0.7",
     "hoist-non-react-statics": "^2.5.0",
-    "lodash.truncate": "^4.4.2",
+    "lodash": "^4.17.5",
     "moment": "^2.22.1",
-    "prop-type": "0.0.1",
     "prop-types": "^15.6.1",
     "react": "16.3.1",
     "react-native": "0.55.3",
-    "react-native-animatable": "^1.2.4",
-    "react-native-blur": "^3.2.2",
-    "react-redux": "^5.0.7"
+    "react-native-asset": "^1.1.2",
+    "react-native-keyboard-spacer": "^0.4.1",
+    "react-native-linear-gradient": "^2.4.0",
+    "react-native-progress-bar": "^0.1.2",
+    "react-native-svg": "^6.3.1",
+    "react-native-switch-pro": "^0.4.10",
+    "react-native-ui-kitten": "^3.0.0",
+    "react-navigation": "^1.5.11",
+    "victory-native": "^0.17.4"
   },
   "devDependencies": {
     "babel-jest": "22.4.3",
@@ -28,5 +32,10 @@
   },
   "jest": {
     "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./app/assets/fonts"
+    ]
   }
 }
